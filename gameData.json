@@ -1,0 +1,29 @@
+{
+    "gameRunning":false,
+    "prompts":{
+        "prefix":"[SYS] ",
+        "welcomeMsg":"Welcome to O and X's",
+        "setupMsg":"Game is setting up, please wait..",
+        "gameStartMsg":"The game is starting now.",
+        "playerNumber":"{plrNo}, what is your name ? ",
+        "addrPrompt":"{plrName}, (symbol {symbol}), what is your next move ? Example: '1,2': ",
+        "gameWinMsg":"{symbol} is the winner!\nWinning Board:"
+    },
+    "players":{
+        "player1":{
+            "name":"",
+            "symbol":""
+        },
+        "player2":{
+            "name":"",
+            "symbol":""
+        }
+    },
+    "boardData":[["","",""],["","",""],["","",""]],
+    "diagWins":[
+        [[1,1],[2,2],[3,3]],
+        [[1,3],[2,2],[3,1]]
+    ]
+
+}
+

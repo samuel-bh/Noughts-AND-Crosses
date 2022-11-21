@@ -1,2 +1,1 @@
-# Noughts-AND-Crosses
-noughts and crosses
+# noughts and crosses
