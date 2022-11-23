@@ -9,6 +9,7 @@ import Modules.input_validator as inp_validator
 # open game config file
 with open("gameData.json","r") as data:
     config = json.load(data)
+    data.close()
 
 # output friendly welcome messages
 print(config["prompts"]["welcomeMsg"])
