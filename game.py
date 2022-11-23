@@ -71,7 +71,6 @@ while config["gameRunning"] == True:
 
         # check if theres a win on the board
         win_check = inp_validator.checkForWin(board,symbols,config["diagWins"])
-
         # if win, go through all of the celebration stuff        
         if win_check["status"] == "win":
             winner_name = player["name"]
@@ -81,6 +80,7 @@ while config["gameRunning"] == True:
 
             # end loop, game is over
             config["gameRunning"] = False
+            break
         
         # check if board is full
         board_full = inp_validator.checkForFullBoard(board)
